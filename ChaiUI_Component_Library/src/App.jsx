@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import './App.css'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
-function App() {
-const [count, setCount] = useState(0)
+import './App.css';
 
-return (
-<>
-<h1 className='bg-orange-400 text-black p-4 rounded-xl'>Check test</h1>
-</>
-)
-}
+const App = () => {
+	return (
+		<div>
+			<Navbar />
+			<Hero />
+		</div>
+	);
+};
 
-export default App
+export default App;
