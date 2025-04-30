@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import StarsCanvas from './components/Starbg';
+import StarsCanvas from './components/StarBg';
 import SearchModal from './components/SearchModal';
 import Footer from './components/Footer';
 
